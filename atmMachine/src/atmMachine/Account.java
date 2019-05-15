@@ -115,15 +115,7 @@ public class Account {
 
 		Account ac = new Account ();
 		Id();
-		//		try( Account ac = new Account () ){		// Do resources support class as exception?
-		//													// I tried resources exception , Why Its not working?
-		//	} catch(IOException e) {
-		//			
-		//		}
-		//	
-		//		
-		//		
-		//		
+		
 	}	
 	//
 }
