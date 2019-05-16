@@ -1,8 +1,9 @@
 package atmMachine;
 
-import java.io.IOException;
 import java.util.Scanner;
 
+
+// Test for git push 
 public class Account {
 
 	private static int Id=10;
@@ -95,14 +96,12 @@ public class Account {
 
 			if( input ==Id) {
 				mainMenu();
-				//System.out.println("*************#################1*****************************************");
 			} else {
 
 
 				System.out.println("Please enter an valid Id");
 				Id();}
 		}catch (Exception e) {
-			//System.out.println("******************************************************");
 			e.printStackTrace();
 			System.out.println("Please enter an valid Id");
 			Id();
@@ -115,17 +114,9 @@ public class Account {
 
 		Account ac = new Account ();
 		Id();
-		//		try( Account ac = new Account () ){		// Do resources support class as exception?
-		//													// I tried resources exception , Why Its not working?
-		//	} catch(IOException e) {
-		//			
-		//		}
-		//	
-		//		
-		//		
-		//		
+
 	}	
-	//
+
 }
 
 
